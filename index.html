@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container" id="home">
+            <span class="home-and-guest">Home</span>
+            <div class="score-timer-container">
+                <span class="score" id="home-score">0</span>
+            </div>
+            <div class="increment-point-buttons">
+                <button class="point-button" id="plus-one-home">+1</button>
+                <button class="point-button" id="plus-two-home">+2</button>
+                <button class="point-button" id="plus-three-home">+3</button>
+            </div>
+        </div>
+        <div class="container" id="timer-and-reset">
+            <button class="reset-quarter-buttons" id="reset-button">New Game</button>
+            <button class="reset-quarter-buttons" id="quarter-button">Begin the Quarter</button>
+            <div class="score-timer-container" id="countdown-timer">
+                <span id="remaining-time">12:00</span>
+            </div>
+
+        </div>
+        <div class="container" id="guest">
+            <span class="home-and-guest">Guest</span>
+            <div class="score-timer-container">
+                <span class="score" id="guest-score">0</span>
+            </div>
+            <div class="increment-point-buttons">
+                <button class="point-button" id="plus-one-guest">+1</button>
+                <button class="point-button" id="plus-two-guest">+2</button>
+                <button class="point-button" id="plus-three-guest">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Digital-7';
+    src: url('./assets/fonts/Digital-7.woff') format('woff2'),
+        url('./assets/fonts/Digital-7.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: Orbitron, serif;
+    background-image: linear-gradient(
+    45deg,
+    hsl(0deg 100% 5%) 0%,
+    hsl(0deg 100% 7%) 8%,
+    hsl(0deg 100% 9%) 17%,
+    hsl(0deg 100% 10%) 25%,
+    hsl(0deg 100% 12%) 33%,
+    hsl(0deg 100% 13%) 42%,
+    hsl(0deg 100% 15%) 50%,
+    hsl(0deg 100% 16%) 58%,
+    hsl(0deg 100% 18%) 67%,
+    hsl(0deg 100% 19%) 75%,
+    hsl(0deg 100% 21%) 83%,
+    hsl(0deg 100% 22%) 92%,
+    hsl(0deg 100% 24%) 100%
+  );
+    background-size: cover;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    padding: 1.6rem;
+    border-radius: 12px;
+    background-image: linear-gradient(
+    45deg,
+    hsla(0deg 100% 24% / 60%) 0%,
+    hsla(0deg 100% 28% / 60%) 8%,
+    hsla(0deg 100% 31% / 60%) 17%,
+    hsla(0deg 100% 35% / 60%) 25%,
+    hsla(0deg 100% 39% / 60%) 33%,
+    hsla(0deg 100% 42% / 60%) 42%,
+    hsla(0deg 100% 46% / 60%) 50%,
+    hsla(0deg 100% 50% / 60%) 58%,
+    hsla(0deg 100% 54% / 60%) 67%,
+    hsla(0deg 100% 57% / 60%) 75%,
+    hsla(0deg 100% 61% / 60%) 83%,
+    hsla(0deg 100% 65% / 60%) 92%,
+    hsla(0deg 100% 68% / 60%) 100%
+  );
+}
+
+.home-and-guest {
+    font-size: 50px;
+    font-weight: 800;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+}
+
+.score-timer-container {
+    color: red;
+    padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+    margin: 0.5rem 0 1rem 0;
+    border-radius: 8px;
+    font-family: 'Digital-7', serif;
+    font-size: 4.5rem;
+    background-image: linear-gradient(
+    45deg,
+    hsl(0deg 100% 5%) 0%,
+    hsl(0deg 100% 7%) 8%,
+    hsl(0deg 100% 9%) 17%,
+    hsl(0deg 100% 10%) 25%,
+    hsl(0deg 100% 12%) 33%,
+    hsl(0deg 100% 13%) 42%,
+    hsl(0deg 100% 15%) 50%,
+    hsl(0deg 100% 16%) 58%,
+    hsl(0deg 100% 18%) 67%,
+    hsl(0deg 100% 19%) 75%,
+    hsl(0deg 100% 21%) 83%,
+    hsl(0deg 100% 22%) 92%,
+    hsl(0deg 100% 24%) 100%
+  );
+}
+
+.point-button {
+    border-style: none;
+    font-family: "Digital-7", serif;
+    font-size: 2rem;
+    color: red;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 8px;
+    background: hsl(0deg 100% 12%) 33%;
+}
+
+.reset-quarter-buttons {
+    border-style: none;
+    font-family: Orbitron, serif;
+    font-size: 1rem;
+    color: white;
+    background: hsl(0deg 100% 12%) 33%;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0.2rem;
+    border-radius: 8px;
+    border: 1px solid white;
+}
